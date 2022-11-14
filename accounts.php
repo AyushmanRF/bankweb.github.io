@@ -6,15 +6,15 @@ if(!isset($_SESSION['userId'])){ header('location:login.php');}
 <html>
 <head>
   <title>Banking</title>
-  <?php require 'assets/autoloader.php'; ?>
-  <?php require 'assets/db.php'; ?>
-  <?php require 'assets/function.php'; ?>
+  <?php require 'autoloader.php'; ?>
+  <?php require 'db.php'; ?>
+  <?php require 'function.php'; ?>
 
 </head>
 <body style="background-size: 100%" class="bg-gradient-seconday">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
  <a class="navbar-brand" href="#">
-    <img src="images/logo.png" style="object-fit:cover;object-position:center center" width="30" height="30" class="d-inline-block align-top" alt="">
+    <img src="logo.png" style="object-fit:cover;object-position:center center" width="30" height="30" class="d-inline-block align-top" alt="">
    <!--  <i class="d-inline-block  fa fa-building fa-fw"></i> --><?php echo bankname; ?>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
