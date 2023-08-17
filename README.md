@@ -5,4 +5,5 @@ GitHub Pages does not support server side scripted languages. Therefore php site
 
 ### Detailed project report pdf is attached with all info and screenshots.
 
-[Bank Project Report.pdf](https://github.com/AyushmanRF/bankweb.github.io/files/12371515/Bank.Project.Report.pdf)
+[Bank Project Report.pdf](https://github.com/AyushmanRF/bankweb.github.io/files/12371515/Bank.Project.Report.pdf) OR Report/Bank Project Report.pdf
+
